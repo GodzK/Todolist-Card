@@ -129,7 +129,7 @@ export default function TodoApp() {
       <div className="w-full max-w-md flex justify-between items-center mb-4 px-4 mt-4">
         <h1 className="text-xl font-bold text-white">PK Todo</h1>
         <button
-          onClick={() => setActiveTab("home")}
+          onClick={() => setActiveTab("")}
           className="bg-white rounded-full p-2 shadow hover:scale-105 transition"
         >
           <Home className="text-gray-700" />
